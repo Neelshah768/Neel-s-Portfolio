@@ -31,8 +31,9 @@ class Contact extends Component {
                   style={{
                     // borderRadius:'50%',
                     height:'400px',
-                    width:'400px',
-                    borderRadius:'50%'
+                    width:'430px',
+                    borderRadius:'50%',
+                    marginTop:20
                   }}
                 />
               </div>
