@@ -11,9 +11,9 @@ const seo = {
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "NeelShah's Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://neelshah.tech/",
   },
 };
 
@@ -21,11 +21,11 @@ const seo = {
 const greeting = {
   title: "Neel Shah",
   logo_name: "Neel Shah",
-  nickname: "Front-end Developer",
+  nickname: "FullStack Developer",
   subTitle:
-    "Crafting elegant and efficient code for seamless user experiences on the web and mobile platforms.",
+    "Architecting end-to-end solutions with modern technologies, delivering scalable applications that bridge powerful backends with elegant frontends across web and mobile platforms.",
   resumeLink:
-    "https://drive.google.com/file/d/1XGxytz7UMZ-Knlpm-Yz6HC4SufbjANiO/view?usp=share_link",
+    "https://drive.google.com/file/d/1wp3dxNUUbvIePEurcpw8IN9wOm7akcQM/view?usp=sharing",
   portfolio_repository: "https://github.com/Neelshah768/Neel-s-Portfolio",
   githubProfile: "https://github.com/Neelshah768",
 };
@@ -87,54 +87,157 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Mobile App Development",
-      fileName: "DataScienceImg",
+      title: "Full Stack Development",
+      fileName: "FullStackImg",
       skills: [
-        "⚡ I specialize in creating elegant and performant mobile applications using React Native",
-        "⚡ Passionate about building seamless and intuitive user experiences for mobile devices using React Native.",
-        "⚡ Expertise in designing and developing mobile applications that are optimized for performance, usability, and accessibility using React Native.",
+        "⚡ Architecting and developing scalable applications with React.js, Next.js, and TypeScript",
+        "⚡ Building cross-platform mobile applications with React Native including state management and API integration",
+        "⚡ Designing microservices and REST APIs using Node.js/Express.js and Spring Boot",
+        "⚡ Managing and optimizing SQL/NoSQL databases with focus on data integrity and performance",
       ],
       softwareSkills: [
         {
-          skillName: "React Native",
-          fontAwesomeClassname: "tabler:brand-react-native",
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
           style: {
-            backgroundColor: "transparent",
-            color:'#61DAFB'
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            color: "#3178C6",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Next.js",
+          fontAwesomeClassname: "simple-icons:nextdotjs",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "React Native",
+          fontAwesomeClassname: "devicon:reactnative-wordmark",
+          style: {
+            color: "#61DAFB",
           },
         },
         {
           skillName: "Redux",
-          fontAwesomeClassname: "skill-icons:redux",
+          fontAwesomeClassname: "simple-icons:redux",
           style: {
-            backgroundColor: "white",
-            color: "#D00000",
+            color: "#764ABC",
           },
         },
         {
-          skillName: "Javascript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          skillName: "NodeJS",
+          fontAwesomeClassname: "vscode-icons:file-type-node",
           style: {
-            backgroundColor: "transparent",
-            color:'#F7DF1E'
+            color: "#339933",
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "Express",
+          fontAwesomeClassname: "simple-icons:express",
           style: {
-            color: "#CB3837",
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "logos:java",
+          style: {
+            color: "#007396",
+          },
+        },
+        {
+          skillName: "Spring Boot",
+          fontAwesomeClassname: "simple-icons:springboot",
+          style: {
+            color: "#6DB33F",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#4479A1",
           },
         },
       ],
     },
     {
-      title: "Web Development",
-      fileName: "FullStackImg",
+      title: "System Architecture & Cloud",
+      fileName: "CloudInfraImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ I specialize in building responsive and intuitive web applications using React JS and the latest front-end technologies.",
-        "⚡ With a deep understanding of the React JS framework and its ecosystem, I can quickly adapt to new requirements and provide innovative solutions that meet the unique needs of each project.",
+        "⚡ Designing and implementing microservices architecture for scalable applications",
+        "⚡ Setting up CI/CD pipelines and automated deployment workflows",
+        "⚡ Managing application hosting and deployment on cloud platforms",
+        "⚡ Implementing security best practices and performance optimization",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#2496ED",
+          },
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
+          },
+        },
+        {
+          skillName: "Vercel",
+          fontAwesomeClassname: "simple-icons:vercel",
+          style: {
+            color: "#000000",
+          },
+        },
+      ],
+    },
+    {
+      title: "UI/UX & Frontend Optimization",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Creating responsive and accessible web interfaces following best practices",
+        "⚡ Implementing modern UI patterns and animations for enhanced user experience",
+        "⚡ Performance optimization and bundle size reduction for faster load times",
+        "⚡ Cross-browser compatibility and mobile-first development",
       ],
       softwareSkills: [
         {
@@ -146,7 +249,7 @@ const skills = {
         },
         {
           skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          fontAwesomeClassname: "simple-icons:css3",
           style: {
             color: "#1572B6",
           },
@@ -159,26 +262,57 @@ const skills = {
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          skillName: "Tailwind",
+          fontAwesomeClassname: "simple-icons:tailwindcss",
           style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
+            color: "#06B6D4",
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
           style: {
-            color: "#61DAFB",
+            color: "#F24E1E",
+          },
+        },
+      ],
+    },
+    {
+      title: "Development Tools & Practices",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Version control and collaborative development using Git and GitHub",
+        "⚡ Code quality maintenance with ESLint, Prettier, and TypeScript",
+        "⚡ Unit testing and integration testing for reliable code",
+        "⚡ Agile development methodologies and project management",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#F05032",
           },
         },
         {
-          skillName: "Redux",
-          fontAwesomeClassname: "skill-icons:redux",
+          skillName: "GitHub",
+          fontAwesomeClassname: "simple-icons:github",
           style: {
-            backgroundColor: "white",
-            color: "#D00000",
+            color: "#181717",
+          },
+        },
+        {
+          skillName: "VS Code",
+          fontAwesomeClassname: "simple-icons:visualstudiocode",
+          style: {
+            color: "#007ACC",
+          },
+        },
+        {
+          skillName: "Postman",
+          fontAwesomeClassname: "simple-icons:postman",
+          style: {
+            color: "#FF6C37",
           },
         },
         {
@@ -190,113 +324,6 @@ const skills = {
         },
       ],
     },
-    // {
-    //   title: "Cloud Infra-Architecture",
-    //   fileName: "CloudInfraImg",
-    //   skills: [
-    //     "⚡ Experience working on multiple cloud platforms",
-    //     "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-    //     "⚡ Deploying deep learning models on cloud to use on mobile devices",
-    //     "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "GCP",
-    //       fontAwesomeClassname: "simple-icons:googlecloud",
-    //       style: {
-    //         color: "#4285F4",
-    //       },
-    //     },
-    //     {
-    //       skillName: "AWS",
-    //       fontAwesomeClassname: "simple-icons:amazonaws",
-    //       style: {
-    //         color: "#FF9900",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Azure",
-    //       fontAwesomeClassname: "simple-icons:microsoftazure",
-    //       style: {
-    //         color: "#0089D6",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Firebase",
-    //       fontAwesomeClassname: "simple-icons:firebase",
-    //       style: {
-    //         color: "#FFCA28",
-    //       },
-    //     },
-    //     {
-    //       skillName: "PostgreSQL",
-    //       fontAwesomeClassname: "simple-icons:postgresql",
-    //       style: {
-    //         color: "#336791",
-    //       },
-    //     },
-    //     {
-    //       skillName: "MongoDB",
-    //       fontAwesomeClassname: "simple-icons:mongodb",
-    //       style: {
-    //         color: "#47A248",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Docker",
-    //       fontAwesomeClassname: "simple-icons:docker",
-    //       style: {
-    //         color: "#1488C6",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Kubernetes",
-    //       fontAwesomeClassname: "simple-icons:kubernetes",
-    //       style: {
-    //         color: "#326CE5",
-    //       },
-    //     },
-    //   ],
-    // },
-    // {
-    //   title: "UI/UX Design",
-    //   fileName: "DesignImg",
-    //   skills: [
-    //     "⚡ Designing highly attractive user interface for mobile and web applications",
-    //     "⚡ Customizing logo designs and building logos from scratch",
-    //     "⚡ Creating the flow of application functionalities to optimize user experience",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Adobe XD",
-    //       fontAwesomeClassname: "simple-icons:adobexd",
-    //       style: {
-    //         color: "#FF2BC2",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Figma",
-    //       fontAwesomeClassname: "simple-icons:figma",
-    //       style: {
-    //         color: "#F24E1E",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Adobe Illustrator",
-    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
-    //       style: {
-    //         color: "#FF7C00",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Inkscape",
-    //       fontAwesomeClassname: "simple-icons:inkscape",
-    //       style: {
-    //         color: "#000000",
-    //       },
-    //     },
-    //   ],
-    // },
   ],
 };
 
@@ -357,31 +384,19 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Gujarat Technological University",
+      title: "Silver oak University",
       subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "Gtu_logo2.png",
-      alt_name: "Gtu Logo",
+      logo_path: "SOUR.png",
+      alt_name: "SOU Logo",
       duration: "2018 - 2022",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Cyber Security, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ Except stydy i was very good in sports,fun activity and cultural fest.",
+        "⚡ Completed core computer science courses including Data Structures, Algorithms, Database Management Systems, Operating Systems and Object Oriented Programming",
+        "⚡ Specialized in building web applications with modern JavaScript frameworks like React.js and backend technologies including Node.js and Spring Boot",
+        "⚡ Actively participated in coding competitions, hackathons and technical events while maintaining good academic performance",
+        "⚡ Demonstrated leadership through sports activities and cultural events alongside academic excellence",
       ],
-      website_link: "https://www.gtu.ac.in/",
+      website_link: "https://silveroakuni.ac.in/",
     },
-    // {
-    //   title: "Indiana University Bloomington",
-    //   subtitle: "M.S. in Computer Science",
-    //   logo_path: "iu_logo.png",
-    //   alt_name: "Indiana University Bloomington",
-    //   duration: "2021 - 2023",
-    //   descriptions: [
-    //     "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-    //     "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-    //     "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-    //   ],
-    //   website_link: "https://www.indiana.edu/",
-    // },
   ],
 };
 
@@ -392,7 +407,7 @@ const certifications = {
       subtitle: "- Prof. Anupam Basu",
       logo_path: "nptel_logo.png",
       // certificate_link:
-        // "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+      // "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
       alt_name: "nptel",
       color_code: "#FFBB0099",
     },
@@ -401,7 +416,7 @@ const certifications = {
       subtitle: "- coreen Ryskamp",
       logo_path: "ibm_logo.png",
       // certificate_link:
-        // "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+      // "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
@@ -410,7 +425,7 @@ const certifications = {
       subtitle: "- kevin Powell",
       logo_path: "freecodecamp.png",
       // certificate_link:
-        // "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+      // "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
       alt_name: "Freecodecamp",
       color_code: "#090920",
     },
@@ -419,7 +434,7 @@ const certifications = {
       subtitle: "- Academind Maximilian",
       logo_path: "udemy.png",
       // certificate_link:
-        // "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+      // "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
       alt_name: "udemy",
       color_code: "#fff",
     },
@@ -428,28 +443,37 @@ const certifications = {
       subtitle: "- Academind Maximilian",
       logo_path: "udemy.png",
       // certificate_link:
-        // "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+      // "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
       alt_name: "udemy",
       color_code: "#fff",
     },
-    // {
-    //   title: "Deep Learning",
-    //   subtitle: "- Andrew Ng",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
-    // {
-    //   title: "ML on GCP",
-    //   subtitle: "- GCP Training",
-    //   logo_path: "google_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-    //   alt_name: "Google",
-    //   color_code: "#0C9D5899",
-    // },
+    {
+      title: "Java/Spring Boot",
+      subtitle: "- in28Minutes Official",
+      logo_path: "udemy.png",
+      // certificate_link:
+      // "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+      alt_name: "udemy",
+      color_code: "#fff",
+    },
+    {
+      title: "HackerRank JavaScript(Basic)",
+      subtitle: "- HackerRank",
+      logo_path: "HackerRankLogo.png",
+      // certificate_link:
+      // "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+      alt_name: "udemy",
+      color_code: "#fff",
+    },
+    {
+      title: "HackerRank JavaScript(intermediate)",
+      subtitle: "- HackerRank",
+      logo_path: "HackerRankLogo.png",
+      // certificate_link:
+      // "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+      alt_name: "udemy",
+      color_code: "#fff",
+    },
     {
       title: "Digital Marketing",
       subtitle: "- Google digital Garage",
@@ -459,79 +483,6 @@ const certifications = {
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
-    // {
-    //   title: "Data Science",
-    //   subtitle: "- Alex Aklson",
-    //   logo_path: "ibm_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-    //   alt_name: "IBM",
-    //   color_code: "#1F70C199",
-    // },
-    // {
-    //   title: "Big Data",
-    //   subtitle: "- Kim Akers",
-    //   logo_path: "microsoft_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-    //   alt_name: "Microsoft",
-    //   color_code: "#D83B0199",
-    // },
-    // {
-    //   title: "Advanced Data Science",
-    //   subtitle: "- Romeo Kienzler",
-    //   logo_path: "ibm_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-    //   alt_name: "IBM",
-    //   color_code: "#1F70C199",
-    // },
-    // {
-    //   title: "Advanced ML on GCP",
-    //   subtitle: "- GCP Training",
-    //   logo_path: "google_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-    //   alt_name: "Google",
-    //   color_code: "#0C9D5899",
-    // },
-    // {
-    //   title: "DL on Tensorflow",
-    //   subtitle: "- Laurence Moroney",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
-    
-    // {
-    //   title: "Kuberenetes on GCP",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
-    // {
-    //   title: "Cryptography",
-    //   subtitle: "- Saurabh Mukhopadhyay",
-    //   logo_path: "nptel_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-    //   alt_name: "NPTEL",
-    //   color_code: "#FFBB0099",
-    // },
-    // {
-    //   title: "Cloud Architecture",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
   ],
 };
 
@@ -540,7 +491,6 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    // "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
     "My passion for innovation and new technologies has driven me to stay up-to-date with the latest trends and advancements in software development, allowing me to provide cutting-edge solutions that meet the unique needs of each project.",
   header_image_path: "experience.svg",
   sections: [
@@ -548,151 +498,56 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "React Developer",
+          title: "Senior FullStack Developer",
           company: "PrometheanTech.in",
           company_url: "https://www.prometheantech.in/",
           logo_path: "prometheantech.png",
-          duration: "August 2022 - Current",
+          duration: "November 2024 current",
           location: "Gandhinagar, Gujarat",
           description:
-            "I am working on a React native application, LivCast which is video Streaming and broadcasting application.The projects involve broadcast your Pre-recorded video/link video to social media plateform like facebook/youtube/twich etc.I have created this cross Plateform Application which runs on ios/Android.",
+            "Expanded technical expertise across full-stack development, mastering React Native, Node.js, and Java Spring Boot.Architected and delivered mission-critical applications including user access management systems.Developed cross-platform mobile and web applications demonstrating end-to-end development capabilities.Implemented robust backend solutions ensuring scalable and secure application infrastructures.Leveraged advanced JavaScript and Java technologies to create innovative software solutions.",
           color: "#0879bf",
         },
-        // {
-        //   title: "Associate AI Engineer",
-        //   company: "Legato Health Technology",
-        //   company_url: "https://legatohealthtech.com/",
-        //   logo_path: "legato_logo.png",
-        //   duration: "June 2020 - Aug 2021",
-        //   location: "Hyderabad, Telangana",
-        //   description:
-        //     "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-        //   color: "#0879bf",
-        // },
-        // {
-        //   title: "Android and ML Developer",
-        //   company: "Muffito Incorporation",
-        //   company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-        //   logo_path: "muffito_logo.png",
-        //   duration: "May 2018 - Oct 2018",
-        //   location: "Pune, Maharashtra",
-        //   description:
-        //     "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-        //   color: "#9b1578",
-        // },
-        // {
-        //   title: "Android Developer",
-        //   company: "FreeCopy Pvt. Ltd.",
-        //   company_url: "https://www.linkedin.com/company/freecopy/about/",
-        //   logo_path: "freecopy_logo.png",
-        //   duration: "Nov 2017 - Dec 2017",
-        //   location: "Ahmedabad, Gujarat",
-        //   description:
-        //     "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-        //   color: "#fc1f20",
-        // },
+        {
+          title: "Senior Frontend Developer",
+          company: "PrometheanTech.in",
+          company_url: "https://www.prometheantech.in/",
+          logo_path: "prometheantech.png",
+          duration: "September 2023 - November 2024",
+          location: "Gandhinagar, Gujarat",
+          description:
+            "Advanced frontend development capabilities with deep expertise in React ecosystem.Developed complex web and mobile applications with focus on scalable and maintainable code.Expanded React Native mobile application development, creating sophisticated cross-platform mobile solutions.Implemented advanced mobile app features with complex state management and navigation.Created pixel-perfect responsive designs for both web and mobile platforms.Implemented state management solutions using Redux and context API across web and mobile applications.Contributed to architectural decisions for frontend and mobile development strategies.",
+          color: "#0879bf",
+        },
+        {
+          title: "Frontend Developer",
+          company: "PrometheanTech.in",
+          company_url: "https://www.prometheantech.in/",
+          logo_path: "prometheantech.png",
+          duration: "August 2022 - September 2023",
+          location: "Gandhinagar, Gujarat",
+          description:
+            "Developed responsive and dynamic web applications using React, creating intuitive user interfaces.Initiated mobile application development using React Native, building cross-platform mobile solutions.Created initial mobile app prototypes demonstrating expertise in mobile UI/UX design.Implemented core mobile application features with React Native, focusing on seamless user experience.Collaborated with design and backend teams to develop integrated web and mobile application interfaces.Utilized advanced React and React Native techniques to optimize application performance across web and mobile platforms",
+          color: "#0879bf",
+        },
       ],
     },
     {
       title: "Internships",
       experiences: [
         {
-          title: "React native Intern",
+          title: "Frontend developer intern",
           company: "PrometheanTech.",
           company_url: "https://www.prometheantech.in/",
           logo_path: "prometheantech.png",
           duration: "July 2022 - Aug 2022",
           location: "Gandhinagar,Gujarat",
           description:
-            "I have Worked on the project Livcast which is video Streaming and Broadcasting application. I have made some api integration in this and also Developed some third party api like google ads,facebook graph and paytm payment Gatway.",
+            "Contributed to Livcast, a video streaming and broadcasting platform, by implementing key features including third-party API integrations. Successfully integrated Google Ads for monetization, Facebook Graph API for social features, and PayTM payment gateway for secure transactions. Worked with React.js to build responsive user interfaces and handled complex API integrations while following best practices for code quality and performance.",
           color: "#000000",
         },
-        // {
-        //   title: "Data Science Research Intern",
-        //   company: "Delhivery Pvt. Ltd.",
-        //   company_url: "https://www.delhivery.com/",
-        //   logo_path: "delhivery_logo.png",
-        //   duration: "May 2019 - Sept 2019",
-        //   location: "Gurgaon, Haryana",
-        //   description:
-        //     "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-        //   color: "#ee3c26",
-        // },
-        // {
-        //   title: "Data Science Intern",
-        //   company: "Intel Indexer LLC",
-        //   company_url:
-        //     "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-        //   logo_path: "intel_logo.jpg",
-        //   duration: "Nov 2018 - Dec 2018",
-        //   location: "Work From Home",
-        //   description:
-        //     "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-        //   color: "#0071C5",
-        // },
       ],
     },
-    // {
-    //   title: "Volunteerships",
-    //   experiences: [
-    //     {
-    //       title: "Google Explore ML Facilitator",
-    //       company: "Google",
-    //       company_url: "https://about.google/",
-    //       logo_path: "google_logo.png",
-    //       duration: "June 2019 - April 2020",
-    //       location: "Hyderabad, Telangana",
-    //       description:
-    //         "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-    //       color: "#4285F4",
-    //     },
-    //     {
-    //       title: "Microsoft Student Partner",
-    //       company: "Microsoft",
-    //       company_url: "https://www.microsoft.com/",
-    //       logo_path: "microsoft_logo.png",
-    //       duration: "Aug 2019 - May 2020",
-    //       location: "Hyderabad, Telangana",
-    //       description:
-    //         "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-    //       color: "#D83B01",
-    //     },
-    //     {
-    //       title: "Mozilla Campus Captain",
-    //       company: "Mozilla",
-    //       company_url: "https://www.mozilla.org/",
-    //       logo_path: "mozilla_logo.png",
-    //       duration: "Oct 2019 - May 2020",
-    //       location: "Kurnool, Andhra Pradesh",
-    //       description:
-    //         "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-    //       color: "#000000",
-    //     },
-    //     {
-    //       title: "Developer Students Club Member",
-    //       company: "DSC IIITDM Kurnool",
-    //       company_url:
-    //         "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-    //       logo_path: "dsc_logo.png",
-    //       duration: "Jan 2018 - May 2020",
-    //       location: "Kurnool, Andhra Pradesh",
-    //       description:
-    //         "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-    //       color: "#0C9D58",
-    //     },
-    //     {
-    //       title: "Developer Program Member",
-    //       company: "Github",
-    //       company_url: "https://github.com/",
-    //       logo_path: "github_logo.png",
-    //       duration: "July 2019 - PRESENT",
-    //       location: "Work From Home",
-    //       description:
-    //         "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-    //       color: "#181717",
-    //     },
-    //   ],
-    // },
   ],
 };
 
@@ -700,14 +555,14 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create LivCast application projects and deploy them to web applications using cloud infrastructure.",
+    "My portfolio showcases full-stack applications built with modern technologies like React.js, Next.js, Spring Boot and React Native. From developing secure fintech solutions to crafting video streaming platforms with LiveCast, I focus on creating scalable and performant applications with clean architecture and intuitive user experiences.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
   // title: "Publications",
   // description:
-    // "I have worked on and published a few research papers and publications of my own.",
+  // "I have worked on and published a few research papers and publications of my own.",
   // avatar_image_path: "projects_image.svg",
 };
 
@@ -767,14 +622,13 @@ const contactPageData = {
   blogSection: {
     // title: "Blogs",
     // subtitle:
-      // "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+    // "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
     // link: "https://blogs.ashutoshhathidara.com/",
     // avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Kalyanpura Kalol, Dist.-Gandhinagar, Gujarat - 382721",
+    subtitle: "Kalyanpura Kalol, Dist.-Gandhinagar, Gujarat - 382721",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/q1MaKYrM2RWsdB1r7",
   },

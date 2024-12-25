@@ -30,10 +30,10 @@ class Contact extends Component {
                   alt=""
                   style={{
                     // borderRadius:'50%',
-                    height:'400px',
-                    width:'430px',
-                    borderRadius:'50%',
-                    marginTop:20
+                    height: "400px",
+                    width: "430px",
+                    borderRadius: "5%",
+                    marginTop: 20,
                   }}
                 />
               </div>
@@ -84,11 +84,11 @@ class Contact extends Component {
                 </div>
               </div>
               {/* <div className="blog-heading-img-div"> */}
-                {/* <img
+              {/* <img
 											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-                {/* <BlogsImg theme={theme} /> */}
+              {/* <BlogsImg theme={theme} /> */}
               {/* </div> */}
             </div>
           </Fade>
