@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Neel Shah",
   nickname: "FullStack Developer",
   subTitle:
-    "Architecting end-to-end solutions with modern technologies, delivering scalable applications that bridge powerful backends with elegant frontends across web and mobile platforms.",
+    "Architecting scalable solutions bridging backends with elegant frontends.",
   resumeLink:
     "https://drive.google.com/file/d/1wp3dxNUUbvIePEurcpw8IN9wOm7akcQM/view?usp=sharing",
   portfolio_repository: "https://github.com/Neelshah768/Neel-s-Portfolio",
